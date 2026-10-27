@@ -1,0 +1,7 @@
+test_id,scenario,input_event,expected_severity,expected_reason
+TC01,Failed login,Failed login,Medium,Failed authentication may indicate mistake or attempted access
+TC02,Failed then successful login same user and IP,Successful login after earlier failed login,High,Successful login follows failed login for same user and source IP
+TC03,PowerShell indicator,Suspicious PowerShell,Critical,PowerShell or encoded-command indicator
+TC04,Network scan,Network scan,Medium,Scanning may indicate reconnaissance
+TC05,Normal successful login,Successful login without prior failed login,Low,No matching earlier failed login in dataset
+TC06,Exfiltration indicator,Data exfiltration attempt,Critical,Possible data-exfiltration indicator

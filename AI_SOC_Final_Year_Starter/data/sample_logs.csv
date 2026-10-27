@@ -1,0 +1,8 @@
+timestamp,event_type,username,src_ip,host,details
+2026-10-18T10:32:14Z,Failed login,admin,203.0.113.25,WEB-01,Authentication failed
+2026-10-18T10:33:02Z,Successful login,admin,203.0.113.25,WEB-01,Login succeeded after failure
+2026-10-18T10:33:27Z,Network scan,unknown,192.168.1.10,LAB-01,Multiple ports scanned in authorized lab
+2026-10-18T10:34:11Z,Suspicious PowerShell,admin,192.168.1.10,HOST-01,Encoded PowerShell command observed in simulated event
+2026-10-18T10:35:45Z,Suspicious domain,admin,203.0.113.25,HOST-01,Connection to example.test marked suspicious in demo
+2026-10-18T10:36:22Z,Data exfiltration attempt,service-user,192.168.1.20,FILE-01,Simulated outbound data transfer alert
+2026-10-18T10:37:00Z,Successful login,student,192.168.1.30,LAB-02,Normal lab login
